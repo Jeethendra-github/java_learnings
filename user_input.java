@@ -7,6 +7,7 @@ class user_input {
         Scanner sc = new Scanner(System.in);
         float f = sc.nextFloat();
         System.out.println("the value of f is: " + f);
+        sc.close();
     }
 
 }
@@ -17,6 +18,7 @@ class user_input2 {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         System.out.println("the value of i is: " + i);
+        sc.close();
     }
 
 }
@@ -27,6 +29,7 @@ class user_input3 {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         System.out.println("the value of s is: " + s);
+        sc.close();
     }
 
 }
@@ -40,6 +43,7 @@ class addition {
         int b = sc.nextInt();
         int sum = a + b;
         System.out.println("the sum is: " + sum);
+        sc.close();
     }
 
 }
