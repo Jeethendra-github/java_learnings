@@ -29,11 +29,9 @@ class ForLoopStep2 {
 class SumExample {
     public static void main(String[] args) {
         int sum = 0;
-        
         for (int i = 1; i <= 10; i++) {
             sum += i;
         }
-        
         System.out.println("Sum of 1 to 10: " + sum);
     }
 }
@@ -42,7 +40,6 @@ class SumExample {
 class WhileLoopExample {
     public static void main(String[] args) {
         int i = 1;
-        
         while (i <= 5) {
             System.out.println(i);
             i++;
@@ -54,7 +51,6 @@ class WhileLoopExample {
 class WhileConditionExample {
     public static void main(String[] args) {
         int num = 10;
-        
         while (num > 0) {
             System.out.println(num);
             num -= 2;
@@ -66,7 +62,6 @@ class WhileConditionExample {
 class DoWhileExample {
     public static void main(String[] args) {
         int i = 1;
-        
         do {
             System.out.println(i);
             i++;
